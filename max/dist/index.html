@@ -6,6 +6,8 @@
   <script src="https://cdn.jsdelivr.net/npm/atropos@2.0.2/atropos.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/atropos@2.0.2/atropos.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
@@ -46,7 +48,7 @@
   </div>
   <div class="container mt-5 mb-5 p-0" style="height: 50vh">
     <div class="h-100 row">
-      <div class=" col d-flex justify-content-center flex-column align-items-center">
+      <div data-aos="fade-right" class="col d-flex justify-content-center flex-column align-items-center">
         <div class="p-3">
           <h4>Decouvrez nos restaurants en ile de France</h4>
         </div>
@@ -57,8 +59,8 @@
           <button class="btn-success rounded-0 text-light p-2 btn">Nos Restaurants</button>
         </div>
       </div>
-      <div class="col">
-        <div id="restaurantsCard" class="h-100 carousel slide carousel-fade" data-bs-ride="carousel" data-bs-theme="dark">
+      <div data-aos="fade-left" class="col">
+        <div id="restaurantsCard" class="h-100 carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
           <div class="carousel-inner h-100">
             <div class="carousel-item h-100 active">
               <div class="card rounded-0 h-100">

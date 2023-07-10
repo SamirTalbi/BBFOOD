@@ -27,3 +27,5 @@ new simpleParallax(banner, {
     overflow: true,
     direction: 'up'
 });
+
+AOS.init();
