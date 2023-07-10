@@ -23,7 +23,7 @@ const myAtropos3 = Atropos({
 
 var banner = document.getElementsByClassName('banner');
 new simpleParallax(banner, {
-    scale: 2,
+    scale: 1.5,
     overflow: true,
     direction: 'up'
 });
