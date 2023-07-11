@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -32,7 +35,7 @@
     </div>
     <button class="see-menu-btn">VOIR MENU </button>
 </div>
-
+<br><br><br><br>
 <div class="page-content"></div>
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
@@ -72,6 +75,7 @@
 
 <p></p>
 <br><br>
+<br><br>
 <div class="titre">
 <div class="position: relative; text-align: center;">
     <div>
@@ -106,53 +110,62 @@
 <br><br><br><br>
 <br><br><br><br>
 
-<div class="titre2">
-    <div style="position: relative; text-align: center;">
-        <div>
-            <h1 style="font-family: 'Arial', sans-serif; font-size: 45px; margin-bottom: 10px;">VISITEZ UN DE NOS 3 RESTAURANTS ! </h1>
-        </div>
-        <div>
-            <p style="font-size: 16px; margin-bottom: 20px;">nananananinainannananannizdjnandiandinnandnzadi nnansnansainsi JHDJHSJKDHJKHDJKSHDJKDHNkdjfklsfdkljfkjsdjfklnsfkl</p>
-        </div>
-        <div>
-            <button class="voir-menu-btn"> Nos restaurants </button>
-        </div>
-    </div>
-    <div class="localisation">
-    <div data-bs-theme="dark"   id="localisation-carousel" class="carousel slide">
-        <div class="carousel-indicators bg-dark bg-opacity-25" >
-            <button type="button" data-bs-target="#localisation-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#localisation-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#localisation-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.606332244068!2d2.4090829928447284!3d48.99904861693741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66a66375de8e1%3A0xad89972251b0b5a5!2sBb%20Food%20Villiers-le-Bel!5e0!3m2!1sfr!2sfr!4v1688948848888!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+<div class="container text-center" style="height: 50vh">
+    <div class="h-100 row mt-5">
+        <div data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" class="col-md-12 col-lg-6 order-lg-1 d-flex justify-content-center flex-column align-items-center">
+            <div class="p-3">
+                <h4>Decouvrez nos restaurants en ile de France</h4>
             </div>
-            <div class="carousel-item">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.750266942911!2d2.3618061769114176!3d48.97727809233207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6699d64f41095%3A0x2092a450ee14c5bf!2sBB%20Food!5e0!3m2!1sfr!2sfr!4v1688905355044!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="p-3">
+                <span>Lorem Ipsum Dolor Sit Amet</span>
+            </div>
+            <div class="p-3">
+                <button class="btn-success rounded-0 text-light p-2 btn">Nos Restaurants</button>
+            </div>
+        </div>
+        <div data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" class="col-md-12 col-lg-6 order-lg-2">
+            <div id="restaurantsCard" class="h-100 carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item h-100 active">
+                        <div class="card rounded-0 h-100">
+                            <iframe class="w-100 h-100 d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.6065172047097!2d2.409082988373765!3d48.99904509748374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66a66375de8e1%3A0xad89972251b0b5a5!2sBb%20Food%20Villiers-le-Bel!5e0!3m2!1sfr!2sfr!4v1688972165294!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="card-footer">
+                                Villiers-le-bel
+                                <p style="font-size: 17px">112 Avenue Pierre Semard</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <div class="card rounded-0 h-100">
+                            <iframe class="w-100 h-100 d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.0614601476486!2d2.910351676380214!3d48.95231557134507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8a1161c760e89%3A0x49ff049be8b65210!2sBB%20Food!5e0!3m2!1sfr!2sfr!4v1688972224873!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="card-footer">
+                                Meaux
+                                <p style="font-size: 17px">28 Allée Jean Louis Barrault</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <div class="card rounded-0 h-100">
+                            <iframe class="w-100 h-100 d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.750451922828!2d2.3618061763816796!3d48.97727457134834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6699d64f41095%3A0x2092a450ee14c5bf!2sBB%20Food!5e0!3m2!1sfr!2sfr!4v1688972255252!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="card-footer">
+                                Montmagny
+                                <p  style="font-size: 17px">3 Chemin des Postes</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.0612751452954!2d2.9103516769103592!3d48.95231909409122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8a1161c760e89%3A0x49ff049be8b65210!2sBB%20Food!5e0!3m2!1sfr!2sfr!4v1688985040513!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#restaurantsCard" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#restaurantsCard" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#localisation-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#localisation-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 </div>
-</div>
-
-
     <br><br><br><br><br>
 
 <footer class="footer">
@@ -160,37 +173,75 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- Première partie -->
-                <div class="footer-section d-flex align-items-center justify-content-center">
-                    <h5 class="mr-3 mb-0 text-center">Suivez nous sur les réseaux sociaux</h5>
+                <div class="footer-section d-flex align-items-center justify-content-center" style="background-color: #a1a1a1;height: 100px;width: 100%;">
+                    <h5 class="mr-3 mb-0 text-center" ><B style="margin-right: 20px; color: #333; font-family: 'Saira Semi Condensed', sans-serif; font-size: 40px;">SUIVEZ NOUS SUR LES RESAUX SOCIAUX</B></h5>
                     <ul class="social-icons list-inline mb-0">
-                        <li class="list-inline-item mr-3"><a href="https://www.tiktok.com/@bbfood_officiel" target="_blank"><img alt="" src="../Samir/assets/tiktok.svg"></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/bbfood_officiel/" target="_blank"><img alt="" src="../Samir/assets/instagram.svg"></a></li>
+                        <li class="list-inline-item mr-3" style="position: relative;">
+                            <a href="https://www.tiktok.com/@bbfood_officiel" target="_blank" style="display: inline-block; border-radius: 50%; overflow: hidden; width: 45px; height: 45px; border: 3px solid #000000;">
+                                <img alt="" src="../Samir/assets/tiktok.svg" style="width: 30px; height: 30px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);">
+                            </a>
+                        </li>
+                        <li class="list-inline-item" style="position: relative;">
+                            <a href="https://www.instagram.com/bbfood_officiel/" target="_blank" style="display: inline-block; border-radius: 50%; overflow: hidden; width: 45px; height: 45px; border: 3px solid #000000;">
+                                <img alt="" src="../Samir/assets/instagram.svg" style="width: 30px; height: 30px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);">
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
+
+
                 <div class="col-md-12">
                     <!-- Deuxième partie -->
-                    <div class="footer-section">
+                    <div class="footer-section" style="background-color:#333; display: flex; align-items: center;height: 130px;">
                         <div class="logo">
-                            <img src="../Samir/assets/logo.png" alt="Logo"  style="max-width: 115px; max-height: 115px;">
+                            <img src="../Samir/assets/logo.png" alt="Logo" style="max-width: 115px; max-height: 115px;">
                         </div>
-                        <ul class="footer-menu  list-inline text-end" style="background-color: lawngreen">
-                            <li class="list-inline-item"><a href="#">Menu</a></li>
-                            <li class="list-inline-item"><a href="#">Localisations</a></li>
-                            <li class="list-inline-item"><a href="#">A propos</a></li>
-                            <li class="list-inline-item"><a href="#">Nous contacter</a></li>
+                        <ul class="footer-menu list-inline text-end" style="width: 85%;">
+                            <li class="list-inline-item" ><a href="#" style="font-size: 40px;text-decoration: none;"><strong>Menu</strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" ><a href="#" style="font-size: 40px;text-decoration: none;"><strong>Localisations</strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" ><a href="#" style="font-size: 40px;text-decoration: none;"><Strong>A propos</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item"><a href="#" style="font-size: 40px;text-decoration: none;"><Strong>Nous contacter</Strong></a></li>
                         </ul>
-
                     </div>
                 </div>
+
                 <div class="col-md-12">
                     <!-- Troisième partie -->
-                    <div class="footer-section">
-                        <h5>Localisations</h5>
+                    <div class="footer-section" style="height: 300px;background-color: #1b1b1b;">
                         <ul class="locations">
-                            <li class="list-inline-item">Meaux</li>
-                            <li class="list-inline-item">Montmagny</li>
-                            <li class="list-inline-item">Villiers-le-Bel</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Meaux</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Montmagny</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Villiers-le-Bel</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Horaire</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Mail</Strong></a></li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item">&nbsp;&nbsp;&nbsp;</li>
+                            <li class="list-inline-item" style="color: rgb(255, 255, 255);text-decoration: none;"><a href="#"><Strong>Réseaux</Strong></a></li>
                         </ul>
                     </div>
                 </div>
@@ -198,7 +249,6 @@
         </div>
     </div>
 </footer>
-
 
 </body>
 
@@ -208,7 +258,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-<script     src="script.js"></script>
+<script src="script.js"></script>
 <script type="module">
     $(document).ready(function() {
         $('.image-slider').slick({
@@ -221,7 +271,7 @@
 
     const imagepara = document.getElementsByClassName('thumbnail');
     new simpleParallax(imagepara, {
-        orientation: 'down',
+        orientation: 'left',
         scale: 1.5,
         delay: 0.6,
         transition: 'cubic-bezier(0, 0, 0, 1)'
