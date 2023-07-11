@@ -195,7 +195,8 @@
 .footer-menu li a strong {
     font-weight: bold;
     font-family: 'Saira Semi Condensed', serif;
-    color: #ffffff
+    transition: color 2s;
+    color: #ffffff;
 }
 .footer-menu li a strong:hover {
     color:limegreen;
